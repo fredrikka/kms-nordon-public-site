@@ -1,0 +1,87 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://example.com/twenty-sixteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Fredrik Karlsson
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+.entry-summary p {
+  color: #000;
+  font-size: 14px;
+}
+.entry-utility p {
+  color: #000;
+  font-size: 14px;
+}
+.cat-links p {
+  font-size: 14px;
+}
+
+.author {
+display: none;
+}
+.site-info {
+   display: none;
+}
+
+.site-header {
+   padding: 0px 4%;
+}
+.site-content {
+   padding: 0px 4%;
+}
+.widget {
+   margin-bottom: 0.5em;
+   padding-top: 0.5em;
+}
+
+
+
+/*
+Table properties
+*/
+table,
+th,
+td {
+	border: 1px solid #d1d1d1;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.75em;
+	table-layout: auto;
+	/* Prevents HTML tables from becoming too wide */
+        width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+	width: 1px;
+	white-space: nowrap;
+}
+
