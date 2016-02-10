@@ -1,6 +1,6 @@
 function KMSvader() {
   var jsonData = $.ajax({
-      url: "http://www.kmsnordon.se/webvind.json",
+      url: "/webvind.json",
       dataType: "text",
       crossDomain: true,
       cache: false,
@@ -23,7 +23,7 @@ function KMSvader() {
 }
 function KMSvaderW() {
   var jsonData = $.ajax({
-      url: "http://www.kmsnordon.se/webvind.json",
+      url: "/webvind.json",
       dataType: "text json",
       async: false
       }).responseText;
